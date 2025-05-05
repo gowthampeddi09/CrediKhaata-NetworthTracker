@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useData } from '../../context/DataContext';
-import { formatDate, isPastDue } from '../../utils/dateUtils';
+import { formatDate} from '../../utils/dateUtils';
 
 const CustomerCard = ({ customer }) => {
   const { 

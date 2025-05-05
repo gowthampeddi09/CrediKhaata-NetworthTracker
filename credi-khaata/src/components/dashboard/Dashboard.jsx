@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useData } from '../../context/DataContext';
-import { Link } from 'react-router-dom';
 import CustomerCard from './CustomerCard';
 import AddCustomerForm from '../forms/AddCustomerForm';
 
